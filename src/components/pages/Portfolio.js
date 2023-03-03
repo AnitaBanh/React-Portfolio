@@ -1,26 +1,24 @@
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import React from "react";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
 
 export default function Portfolio() {
-    return (
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+  return (
+    <Card style={{ width: "18rem" }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Drink Of The Day</Card.Title>
-        <Card.Text>
-          Decide what to drink based on the weather
-        </Card.Text>
+        <Card.Title>Trivia Tracker</Card.Title>
+        <Card.Text>Answer trivia</Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
         <ListGroup.Item>Deployed:</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        <ListGroup.Item>Technologies: Handlebars</ListGroup.Item>
+        <ListGroup.Item>github: </ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Button variant="primary">View</Button>
       </Card.Body>
     </Card>
-        );
-    };
+  );
+}
