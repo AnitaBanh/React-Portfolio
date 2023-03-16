@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../utils/helpers";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import '../styles/index.css';
+
 
 export default function Contact() {
   const [name, setName] = useState("");
