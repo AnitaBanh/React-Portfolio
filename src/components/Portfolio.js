@@ -49,7 +49,7 @@ export default function Portfolio() {
         </ListGroup.Item>
       </ListGroup>
       <Card.Body>
-        <Button href= "https://github.com/MZernick/Trivia-Tracker" variant="primary" >View</Button>
+        <Button href= "https://trivia-tracker.herokuapp.com/" variant="primary" >View</Button>
       </Card.Body>
     </Card>
  

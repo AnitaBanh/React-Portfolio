@@ -3,9 +3,9 @@ import '../styles/index.css';
 
 function Header() {
   return (
-    <header className="header">
+    <header style={{ display: "block", padding: 30, backgroundColor: '#87bba2'}}>
       <h1>Anita Banh</h1>
-      <img src="avatar.png" alt="placeholder avatar"></img>
+      {/* <img src="avatar.png" alt="placeholder avatar"></img> */}
     </header>
   );
 }

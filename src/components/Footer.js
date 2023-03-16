@@ -5,6 +5,7 @@ import { Image } from "react-bootstrap";
 export default function Footer() {
   return (
     <div>
+    <div>
       <a href="https://github.com/AnitaBanh">
       <Image
         src="github.png"
@@ -23,6 +24,7 @@ export default function Footer() {
         height= {40}
       />
       </a>
+    </div>
     </div>
   );
 }
