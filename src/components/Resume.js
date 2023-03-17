@@ -4,8 +4,6 @@ import "../styles/index.css";
 export default function About() {
   return (
     <div>
-      {/* <h1>Anita Banh</h1> */}
-
       <section>
         <h2>Technical Skills</h2>
         <p>
@@ -36,6 +34,15 @@ export default function About() {
           impact. Conducted internal audits. Supported new product launch
           projects as QA core team member.
         </p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <h5>Full Stack Coding Boot Camp Certificate</h5>
+        <p>
+          The University of Texas At Austin School for Professional Education
+        </p>
+        <h5>Bachelor of Science, Molecular Biology:</h5>
+        <p>University of Texas At Austin, Austin, TX</p>
       </section>
     </div>
   );
