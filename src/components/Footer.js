@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles/index.css';
 import { Image } from "react-bootstrap";
+import github from "../assets/github.png"
+import linkedin from "../assets/linkedin.png"
 
 export default function Footer() {
   return (
@@ -8,7 +10,7 @@ export default function Footer() {
     <div>
       <a href="https://github.com/AnitaBanh">
       <Image
-        src="github.png"
+        src={github}
         alt="github cat logo"
         className="footerIcon"
         width= {40}
@@ -17,7 +19,7 @@ export default function Footer() {
       </a>
       <a href="https://linkedin.com/AnitaBanh">
       <Image
-        src="LI-In-Bug.png"
+        src={linkedin}
         alt="LinkedIn logo"
         className="footerIcon"
         width= {40}

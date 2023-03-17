@@ -5,6 +5,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Image from "react-bootstrap/Image";
 import "../styles/index.css";
 import { Col, Row } from "react-bootstrap";
+import propairs from "../assets/propairs.png";
+import trivia from "../assets/trivia.png"
 
 export default function Portfolio() {
   return (
@@ -14,7 +16,7 @@ export default function Portfolio() {
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col className="d-flex"> 
     <Card style={{ width: "18rem", display: "flex-row" }}>
-      <Image sizes="100 160" src="propairs.png" />
+      <Image size="100 160" src={propairs} />
       <Card.Body>
         <Card.Title>ProPairs</Card.Title>
         <Card.Text>Explore team compatibility based on personality type</Card.Text>
@@ -34,7 +36,7 @@ export default function Portfolio() {
     </Card>
 
     <Card style={{ width: "18rem", display: "flex-row"  }}>
-      <Image  src="trivia.png" />
+      <Image  src={trivia} />
       <Card.Body>
         <Card.Title>Trivia Tracker</Card.Title>
         <Card.Text>Answer correctly to climb the scoreboard!</Card.Text>
